@@ -19,10 +19,11 @@ This project originated as a senior fullstack developer technical challenge and 
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Node.js, Express.js
-- **Database**: SQLite (or MongoDB for prototyping)
+- **Backend**: Node.js + Express
+- **Language**: TypeScript
+- **Database**: SQLite with Prisma ORM (recommended)
 - **Auth**: JWT + bcrypt
-- **Testing**: Jest, Supertest (optional)
+- **Testing**: Jest, Supertest
 - **Environment**: dotenv
 
 ---
@@ -31,10 +32,11 @@ This project originated as a senior fullstack developer technical challenge and 
 ```
 📁 src
 ├── 📁 controllers
-├── 📁 models
 ├── 📁 routes
+├── 📁 models
 ├── 📁 services
 ├── 📁 middlewares
+├── 📁 config
 ├── 📁 utils
 └── index.ts
 ```
